@@ -208,3 +208,16 @@ body {
 #donate:hover {
   transform: scale(1.1);
 }
+
+#home {
+  position: fixed;
+  left: 700px;
+  top: 44px;
+  border: 3px solid white;
+  padding: 6px 18px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: transform .2s;
+}
