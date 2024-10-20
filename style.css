@@ -133,6 +133,7 @@ body {
   border: 1px solid white;
   padding: 20px;
   box-sizing: border-box;
+  margin-bottom: 80px;
 }
 
 /* Title styling */
@@ -171,12 +172,13 @@ body {
 }
 
 .pdf {
-  position: fixed;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   width: 800px;
   top: 120px;
   height: 800px;
+  z-index: -1;
 }
 
 #copyrightinformation {
