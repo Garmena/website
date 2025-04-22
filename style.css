@@ -200,7 +200,7 @@ body {
   font-weight: bold;
 }
 
-#donate {
+#instagram {
   position: fixed;
   left: 800px;
   top: 44px;
@@ -213,7 +213,7 @@ body {
   transition: transform .2s;
 }
 
-#donate:hover {
+#instagram:hover {
   transform: scale(1.1);
 }
 
